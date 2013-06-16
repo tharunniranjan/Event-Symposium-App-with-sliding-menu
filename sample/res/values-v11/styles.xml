@@ -1,0 +1,7 @@
+<resources>
+
+    <style name="AppTheme" parent="Sherlock.__Theme" />
+	<style name="MenuTheme" parent="Sherlock.__Theme.DarkActionBar" />
+	<style name="MenuTheme1" parent="android:Theme.Holo" />
+	<style name="EventTheme" parent="android:Theme.Holo.Light"></style>
+</resources>

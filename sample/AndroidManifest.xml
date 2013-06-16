@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.korovyansk.android.sample.slideout"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="11"
+        android:targetSdkVersion="17" />
+
+    <application android:theme="@style/AppTheme"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name" 
+        >
+        <activity
+            android:label="ITRIX '13"
+            android:name=".SampleActivity" >
+            <intent-filter >
+                <action android:name="com.android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+         <activity android:name=".SplashActivity" android:label="@string/app_name" android:theme="@style/MenuTheme" >
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+       
+        <activity android:name=".ActionbarActivity"
+            android:label="ITRIX">
+            <intent-filter >
+                <action android:name="com.android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MenuActivity" android:label="@string/app_name" android:theme="@style/MenuTheme" >
+			<intent-filter>
+				<action android:name="com.itrix.MENU" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+        <activity android:name=".Home"
+            android:label="@string/app_name">
+            <intent-filter >
+                <action android:name="com.itrix.HOME" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Events"
+            android:label="ITRIX">
+            <intent-filter >
+                <action android:name="com.itrix.EVENTS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity android:name=".WorkshopActivity"
+            android:label="ITRIX">
+            <intent-filter >
+                <action android:name="com.itrix.WORKSHOPACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity android:name=".Contact"
+            android:label="ITRIX">
+            <intent-filter >
+                <action android:name="com.itrix.CONTACT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity android:name=".About"
+            android:label="ITRIX">
+            <intent-filter >
+                <action android:name="com.itrix.ABOUT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity android:name=".DatabaseAct"
+            android:label="ITRIX"
+            android:theme="@style/EventTheme">
+            <intent-filter >
+                <action android:name="com.itrix.DATABASEACT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

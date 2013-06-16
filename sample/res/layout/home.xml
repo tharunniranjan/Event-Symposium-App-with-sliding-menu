@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:weightSum="100" >
+
+    <ImageView
+        android:id="@+id/ivPoster"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:layout_weight="7"
+        android:src="#ffffff" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_weight="15"
+        android:orientation="horizontal"
+        android:weightSum="100" >
+
+        <ImageButton
+            android:id="@+id/ivWin8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="33"
+            android:src="@drawable/win8" />
+
+        <ImageButton
+            android:id="@+id/ivOPC"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="33"
+            android:src="@drawable/opc" />
+
+        <ImageButton
+            android:id="@+id/ivCyber"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="33"
+            android:src="@drawable/cbf" >
+        </ImageButton>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_weight="15"
+        android:orientation="horizontal"
+        android:weightSum="100" >
+
+        <ImageButton
+            android:id="@+id/ivbdata"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="33"
+            android:src="@drawable/bdata" />
+
+        <ImageButton
+            android:id="@+id/ivMega"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="33"
+            android:src="@drawable/mega1" />
+
+        <ImageButton
+            android:id="@+id/ivWeb"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="33"
+            android:src="@drawable/web1" >
+        </ImageButton>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="63"
+        android:background="#343030"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/ivFooter"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:src="@drawable/ista" />
+    </LinearLayout>
+
+</LinearLayout>

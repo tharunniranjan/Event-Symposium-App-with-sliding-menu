@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/about"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+  
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp"
+        >
+
+        <ImageView
+            android:id="@+id/ivCeg"
+            android:layout_width="fill_parent"
+            android:layout_height="220dp"
+            android:src="@drawable/anna" android:contentDescription="Image of CEG"/>
+
+        <TextView
+            android:id="@+id/tvAbt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ABOUT US :"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="College of Engineering, Guindy consistently ranks among the top 10 colleges of India. Established in the year 1794, College of Engineering, Guindy has a n inexorable tradition of grooming the brightest minds of the nation into smart engineers and executives who can think on their feet. Anna University (AU), formerly Perarignar Anna University of Technology (PAUT), is a technical university in Tamil Nadu, India. It&apos;s been ranked 5th best university in India. The university encompasses within it one of the oldest technical institutes in the world and has a history spanning 218 years [as of 2012]. It was renamed &apos;Anna University&apos; on 4 September 1978 as a unitary university, named after C. N. Annadurai. It became an affiliating university in 2001, absorbing about 250 engineering colleges in Tamil Nadu. Between 2007 and 2010 it was split into six universities, namely, Anna University, Chennai, Anna University of Technology, Chennai, Anna University of Technology, Tiruchirappalli, Anna University of Technology, Coimbatore, Anna University of Technology Tirunelveli and Anna University of Technology, Madurai. On September 14, 2011 a bill was passed to merge back the universities. Anna University has once again become a single affiliating university for engineering colleges all over Tamil Nadu from August 1, 2012." />
+
+        <TextView
+            android:id="@+id/tvIST"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ITRIX/ISTA(DIST) :"
+            
+            android:textSize="@dimen/abs__action_bar_title_text_size" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The Information Science and Technology Association (ISTA) is honoured to present ITrix, the annual technical fest of the Department of Information Science and Technology (DIST) , College of Engineering Guindy , Anna University, Chennai. ITrix has every ingredients of a successful techfest with fascinating and novel events, thought provoking workshops adding to the flavor. Information Science and Technology Association is one of the vibrant and active associations of Anna University. ISTA organizes ITRIX every year to perfection which pulls thousands of students from various corners of the globe. The Online Programming Contest of ITRIX was a mega hit with participants from over 40 countries. ISTA also organized the first version of i++ - intra-college technical techfest which evoked overwhelming response from the students. For an intra-college techfest, i++ offered too much brain food that the student community was forced to sharpen their skills. Department of Information Science and Technology is one of the youngest and fastest growing departments of Anna University. It also remains as the dream destination for many aspiring students of the state." />
+          </LinearLayout>
+
+</ScrollView>
