@@ -1,11 +1,15 @@
 --Summary--
-Easy portable library project for facebook like slideout navigation.
-You can see how it works in this short demo - http://youtu.be/Cqu7YdNMzeQ.
+This is the source code of the android app ITRIX 13. You can check it here. 
+https://play.google.com/store/apps/details?id=com.ITRIX.android.sample.slideout&hl=en_GB
 
-Example of usage is provided in demo project.
+The source code is free to be used. Anyone can modify this app according to their needs. 
+The main aim of this app is to only serve as a template for people so they don’t have to start off from scratch. 
+The sample serves as example for using multiple android custom libraries to make your app really stand out.
+Happy Coding!! 
 
 --Developed by-- 
-Alex Korovyansky - korovyansk@gmail.com
+Tharun Niranjan - yourfriendniranjan@gmail.com 
+Shyam Sunder - shyampsunder2003@gmail.com
 
 --License--
 http://www.apache.org/licenses/LICENSE-2.0
